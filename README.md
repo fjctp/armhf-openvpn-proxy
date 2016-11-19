@@ -1,5 +1,5 @@
 # armhf-openvpn-proxy
-It creates a openvpn connection and then share that connection using SOCKS proxy server (port 8119).
+This is used to create a docker image for a proxy server. The server establish a OpenVPN connection given a config file. Then, it shares that connection using SOCKS proxy server (port 8119).
 
 # Build
 run `build-latest-images.sh`
